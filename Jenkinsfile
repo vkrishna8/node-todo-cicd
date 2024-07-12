@@ -12,7 +12,7 @@ pipeline {
         stage ('Build & Test') {
             steps {
                 echo 'Build & Test'
-                sh 'docker build . -t ajitfawade14/node-todo-app:latest'
+                sh 'docker build . -t vkrishna8/node-todo-app:latest'
             }
         }
         
